@@ -6,8 +6,11 @@ const Character = props => {
     return (
         <CharacterContainer>
             <img src={props.image}></img>
-            <h2>{props.name}</h2>  
-            <p>Species: {props.species}</p>        
+            <div className='info'>
+                <h2>{props.name}</h2>  
+                <p>Species: <span className='orange'>{props.species}</span></p>
+                <p>Origin: <span className='orange'>{props.origin}</span></p>    
+            </div>      
         </CharacterContainer>
     )
 }

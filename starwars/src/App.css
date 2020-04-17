@@ -10,5 +10,32 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  /* color: rgb(185, 121, 1); */
+}
+.logoImg {
+  width: 5%;
+  position: absolute;
+  right: 19px;
+  top: 10px;
 
 }
+
+.char {
+  width: 20%;
+  margin: 0 auto;
+}
+button {
+  background-color: black;
+  color: orange;
+  padding: 8px 2%;
+  margin: 0 1%;
+  border-radius: 15px;
+  cursor: pointer;
+  outline: none;
+
+}
+
+button:hover {
+  color: rgb(47, 255, 47);
+}
+
