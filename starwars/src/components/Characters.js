@@ -9,6 +9,11 @@ const CharacterContainer = styled.div`
     margin: 5% 0;
     filter: drop-shadow(0 3px 4px gray);
 
+    @media screen and (max-width: 500px){
+        width: 100%;
+        padding: 0;
+    }
+
     img {
         width: 100%;
         /* height: 300px; */

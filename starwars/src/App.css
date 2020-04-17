@@ -12,6 +12,11 @@
   justify-content: space-evenly;
   /* color: rgb(185, 121, 1); */
 }
+@media screen and (max-width: 500px){
+  .charactersContainer{
+    justify-content: center;
+  }
+}
 .logoImg {
   width: 5%;
   position: absolute;
@@ -19,10 +24,21 @@
   top: 10px;
 
 }
+@media screen and (max-width: 500px){
+  .logoImg{
+    width: 10%;
+  }
+}
 
 .char {
   width: 20%;
   margin: 0 auto;
+}
+@media screen and (max-width: 500px){
+  .char{
+    width: 30%;
+    padding: 2% 0;
+  }
 }
 button {
   background-color: black;
