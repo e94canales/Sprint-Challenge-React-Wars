@@ -6,3 +6,52 @@
   text-shadow: 1px 1px 5px #fff;
 }
 /* write your parent styles in here for your App.js */
+.charactersContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  /* color: rgb(185, 121, 1); */
+}
+@media screen and (max-width: 500px){
+  .charactersContainer{
+    justify-content: center;
+  }
+}
+.logoImg {
+  width: 5%;
+  position: absolute;
+  right: 19px;
+  top: 10px;
+
+}
+@media screen and (max-width: 500px){
+  .logoImg{
+    width: 10%;
+  }
+}
+
+.char {
+  width: 20%;
+  margin: 0 auto;
+}
+@media screen and (max-width: 500px){
+  .char{
+    width: 30%;
+    padding: 2% 0;
+  }
+}
+button {
+  background-color: black;
+  color: orange;
+  padding: 8px 2%;
+  margin: 0 1%;
+  border-radius: 15px;
+  cursor: pointer;
+  outline: none;
+
+}
+
+button:hover {
+  color: rgb(47, 255, 47);
+}
+
